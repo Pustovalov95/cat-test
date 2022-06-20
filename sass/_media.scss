@@ -1,0 +1,31 @@
+@media (max-width: 1200px) {
+    .promo-wrapper {
+        flex-wrap: wrap;
+        gap: 120px;
+    }
+}
+@media (max-width: 800px) {
+    .promo {
+        padding: 30px 10px;
+        &-wrapper {
+            margin-top: 60px;
+            flex-direction: column;
+            flex-wrap: wrap;
+            gap: 60px;
+        }
+    }
+}
+@media (max-width: 400px) {
+    .promo__item  {
+        height: 432px;
+        width: 288px;
+        &-header {
+            font-size: 17px;
+        }
+        &-img {
+            img {
+                width: 85%;
+            }
+        }
+    }
+}
